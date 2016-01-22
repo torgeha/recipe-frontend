@@ -1,0 +1,31 @@
+{
+  "name": "recipe-frontend",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/torgeha/recipe-frontend.git"
+  },
+  "author": "torgeir",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/torgeha/recipe-frontend/issues"
+  },
+  "dependencies": {
+    "react": "~0.14.6",
+    "react-dom": "~0.14.6",
+    "react-bootstrap": "~0.28.2"
+  },
+  "devDependencies": {
+    "webpack": "~1.12.11",
+    "webpack-dev-server": "~1.14.1",
+    "babel-core": "~6.4.5",
+    "babel-loader": "~6.2.1",
+    "babel-preset-es2015": "~6.3.13",
+    "babel-preset-react": "~6.3.13"
+  }
+}
