@@ -2,15 +2,18 @@ import React from 'react';
 import { Button } from 'react-bootstrap';
 
 class Hello extends React.Component {
-  render() {
-    return (
-      <div>
-        <h1>Hello</h1>
-          <Button bsStyle="primary" bsSize="large" active>Primary button</Button>
-          <Button bsSize="large" active>Button</Button>
-      </div>
-    );
-  }
-}
+    constructor(props) {
+        super(props);
+    }
 
-React.render(<Hello/>, document.getElementById('hello'));
+    render() {
+        return (
+            <div>
+                <h1>Welcome to my routed page</h1>
+                <p>Have a good time.</p>
+            </div>
+        );
+    }
+
+export default Hello;
+//React.render(<Hello/>, document.getElementById('hello'));
